@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kams Calculator</title>
+    <link rel="stylesheet" href="calculator.css">
+</head>
+<body>
+    <div class='calculator'>
+        <div class="screen"></div>
+        <div class="buttons">
+            <button value="7" onclick="showValue(value);">7</button>
+            <button value="8" onclick="showValue(value);">8</button>
+            <button value="9" onclick="showValue(value);">9</button>
+            <button value="+" onclick="showValue(value);">+</button>
+            <button value="4" onclick="showValue(value);">4</button>
+            <button value="5" onclick="showValue(value);">5</button>
+            <button value="6" onclick="showValue(value);">6</button>
+            <button value="-" onclick="showValue(value);">-</button>
+            <button value="1" onclick="showValue(value);">1</button>
+            <button value="2" onclick="showValue(value);">2</button>
+            <button value="3" onclick="showValue(value);">3</button>
+            <button value="*" onclick="showValue(value);">*</button>
+            <button value="0" onclick="showValue(value);">0</button>
+            <button value="." onclick="showValue(value);">.</button>
+            <button value="/" onclick="showValue(value);">/</button>
+            <button id="equal-button" value="=" onclick="getResult();">=</button>
+            <button id="clear-button" value=" " onclick="wipeOut();">CLEAR</button>
+        </div>
+    </div>
+    <script src="calculator.js"></script>
+</body>
+</html>
